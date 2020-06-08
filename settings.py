@@ -1,0 +1,25 @@
+from pygame.math import Vector2 as vec
+TOP_BOTTOM_BUFFER = 50
+WIDTH, HEIGHT = 610, 670
+MAZE_WIDTH  = WIDTH - TOP_BOTTOM_BUFFER 
+MAZE_HEIGHT = HEIGHT - TOP_BOTTOM_BUFFER
+FPS =  60
+PLAYER_COLOUR  = (208,22,22)
+
+############FONT SETTINGS#######
+START_TEXT_SIZE = 24
+START_FONT = 'arial black'
+
+#color settings
+BLACK = (0,0,0)
+BLUE = (49, 140, 231)
+WHITE=(255,255,255)
+RED = (208,22,22)
+GREY = (107, 107, 107)
+PLAYER_COLOUR  = (196, 194, 15)
+
+#player settings
+PLAYER_START_POS = 0
+
+COLS = 28
+ROWS = 30
