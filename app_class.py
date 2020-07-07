@@ -74,6 +74,11 @@ class App:
                 for xidx, char in enumerate(line):
                     if char == "C":
                         self.coins.append(vec(xidx, yidx))
+        with open("walls.txt", "r") as file:
+            for yidx, line in enumerate(file):
+                for xidx, char in enumerate(line):
+                    if char == "R":
+                        self.big_coins.append(vec(xidx, yidx))
         self.state = "playing"
 
     def draw_text(self, words, screen, pos, size, colour, font_name, centered = False):
